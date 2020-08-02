@@ -2,9 +2,13 @@
 __pycache__/
 __pycache__
 
+utils/__pycache__/
+utils/__pycache__
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
+data
 data/
 
 # OS generated files
