@@ -2,8 +2,7 @@
 
 In this repository we provide Jupyter Notebooks to reproduce the results from the paper.
 
-Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case will be provided in this README shortly.
-
+Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found in (this)[/ruptures_changing/README.md] file..
 
 # Citation
 
