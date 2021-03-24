@@ -1,15 +1,10 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
-__pycache__
-
 utils/__pycache__/
-utils/__pycache__
+venv/
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
-data
-data/
 
 # OS generated files
 .DS_Store

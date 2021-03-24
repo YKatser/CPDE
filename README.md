@@ -2,9 +2,21 @@
 
 In this repository we provide Jupyter Notebooks to reproduce the results from the paper.
 
-Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found in (this)[/ruptures_changing/README.md] file..
+Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found in (this)[/ruptures_changing/README.md] file.
 
 # Citation
+
+To cite this repository in publications:
+```
+@misc{cpdensembles,
+author = {Katser, Iurii and Kozitsin, Vyacheslav},
+title = {Changepoint Detection Ensembles},
+year = {2021},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/YKatser/cpde}},
+}
+```
 
 # Used materials
 
