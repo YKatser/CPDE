@@ -2,7 +2,21 @@
 
 In this repository we provide Jupyter Notebooks to reproduce the results from the paper.
 
-Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found in (this)[/ruptures_changing/README.md] file.
+Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found [here](ruptures_changing/).
+
+# Leaderboard
+*Sorted by NAB (standard); for all metrics bigger is better.*  
+*The current leaderboard is obtained with the window size for the NAB detection algorithm equal to 30 sec.*  
+| Algorithm | NAB (standard) | NAB (lowFP) | NAB (LowFN) |
+|---|---|---|---|
+Perfect detector | 100 | 100 | 100 
+Opt (Mahalanobis) | 22.37 | 19.9 | 23.37
+Win (l1) | 18.4 | 16.22 | 19.19
+BinSeg (Mahalanobis) | 24.1 | 21.69 | 25.04
+OptEnsemble (WeightedSum+Rank) | 23.07 | 20.52 | 24.35
+WinEnsemble (Sum+MinAbs) | 19.38 | 17.03 | 20.35
+BinSegEnsemble (WeightedSum+Rank) | 18.1 | 15.36 | 19.51
+Null detector | 0 | 0 | 0
 
 # Citation
 
@@ -18,7 +32,9 @@ howpublished = {\url{https://github.com/YKatser/cpde}},
 }
 ```
 
-# Used materials
+The paper "Unsupervised Offline Changepoint Detection Ensembles" is currently submitted for publication.
+
+# Used materials and 3rd party code
 
 The experiment is based on the [*ruptures*](http://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html) library (Copyright (c) 2017, ENS Paris-Saclay, CNRS. All rights reserved.) and the paper "Selective review of offline change point detection methods. Signal Processing" by C. Truong, L. Oudre, N. Vayatis. [journal](https://www.sciencedirect.com/science/article/pii/S0165168419303494?via%3Dihub), [pdf](http://www.laurentoudre.fr/publis/TOG-SP-19.pdf)
 
