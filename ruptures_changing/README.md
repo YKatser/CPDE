@@ -22,14 +22,14 @@ Moreover, the `custom_cost.py` file is an important part of the ensembling appro
 
 # Files
 `__init__.py` - init package file
-`DynpEnsembling.py` - file containing ensemble-extended Dynp algorithm
-`WindowEnsembling.py` - file containing ensemble-extended Window algorithm
-`BinsegEnsembling.py` - file containing ensemble-extended Binseg algorithm
+`dynpensembling.py` - file containing ensemble-extended Dynp algorithm
+`windowensembling.py` - file containing ensemble-extended Window algorithm
+`binsegensembling.py` - file containing ensemble-extended Binseg algorithm
 `aggregations.py` - file containing various aggregation functions
 
 # Used materials
 
-The `DynpEnsembling.py`, `WindowEnsembling.py`, `BinsegEnsembling.py` files are based on the (*ruptures*)[http://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html] library (Copyright (c) 2017, ENS Paris-Saclay, CNRS. All rights reserved.).
+The `dynpensembling.py`, `windowensembling.py`, `binsegensembling.py` files are based on the (*ruptures*)[http://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html] library (Copyright (c) 2017, ENS Paris-Saclay, CNRS. All rights reserved.).
 
 The *ruptures* python package is distributed under the following conditions:
 ```

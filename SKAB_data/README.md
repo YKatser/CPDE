@@ -1,8 +1,19 @@
+# Skoltech Anomaly Benchmark (SKAB)
+SKAB is designed for evaluating algorithms for anomaly detection. The benchmark currently includes 30+ datasets plus Python modules for algorithms’ evaluation. Each dataset represents a multivariate time series collected from the sensors installed on the testbed. All instances are labeled for evaluating the results of solving outlier detection and changepoint detection problems.
+
+The [link](https://github.com/waico/SKAB) to the repository with the benchmark and all related information.
+
+# License
+SKAB is being distributed under the GPL-3.0 License.
+
+# Folder structure
 ```
-  └── data                        # Data files and processing Jupyter Notebook
+  └── SKAB_data                   # Data files and processing Jupyter Notebook
       ├── Load data.ipynb         # Jupyter Notebook to load all data
+      ├── evaluating.py           # File with evaluating (NAB scoring algorithm) functions
+      ├── README.md           
       ├── anomaly-free         
-      │   └── anomaly-free.csv     # Data obtained from the experiments with normal mode
+      │   └── anomaly-free.csv    # Data obtained from the experiments with normal mode
       ├── valve1                  # Data obtained from the experiments with closing the valve at the outlet of the flow from the pump.
       │   ├── 1.csv            
       │   ├── 2.csv            

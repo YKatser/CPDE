@@ -1,10 +1,23 @@
 # Ensembles of offline changepoint detection methods
-
 In this repository we provide Jupyter Notebooks to reproduce the results from the paper.
 
 Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found [here](ruptures_changing/).
 
-# Leaderboard
+# Leaderboard for SKAB
+*Sorted by NAB (standard); for all metrics bigger is better.*  
+*The current leaderboard is obtained with the window size for the NAB detection algorithm equal to 10% of the dataset length*  
+| Algorithm | NAB (standard) | NAB (lowFP) | NAB (LowFN) |
+|---|---|---|---|
+Perfect detector | 100 | 100 | 100 
+Opt (Mahalanobis) | 36.88 | 35.82 | 37.29
+Win (Mahalanobis) | 27.79 | 27 | 28.05
+BinSeg (Mahalanobis) | 36.88 | 35.82 | 37.29
+OptEnsemble (Min+MinMax/Rank) | 41.81 | 41 | 42.16
+WinEnsemble (WeightedSum+MinAbs) | 25.14 | 24.33 | 26.29
+BinSegEnsemble (Min+MinMax/Rank) | 41.81 | 41 | 42.16
+Null detector | 0 | 0 | 0
+
+# Leaderboard for TEP benchmark
 *Sorted by NAB (standard); for all metrics bigger is better.*  
 *The current leaderboard is obtained with the window size for the NAB detection algorithm equal to 30 sec.*  
 | Algorithm | NAB (standard) | NAB (lowFP) | NAB (LowFN) |
@@ -19,7 +32,6 @@ BinSegEnsemble (WeightedSum+Rank) | 18.1 | 15.36 | 19.51
 Null detector | 0 | 0 | 0
 
 # Citation
-
 To cite this repository in publications:
 ```
 @misc{cpdensembles,
@@ -35,7 +47,6 @@ howpublished = {\url{https://github.com/YKatser/cpde}},
 The paper "Unsupervised Offline Changepoint Detection Ensembles" is currently submitted for publication.
 
 # Used materials and 3rd party code
-
 The experiment is based on the [*ruptures*](http://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html) library (Copyright (c) 2017, ENS Paris-Saclay, CNRS. All rights reserved.) and the paper "Selective review of offline change point detection methods. Signal Processing" by C. Truong, L. Oudre, N. Vayatis. [journal](https://www.sciencedirect.com/science/article/pii/S0165168419303494?via%3Dihub), [pdf](http://www.laurentoudre.fr/publis/TOG-SP-19.pdf)
 
 
