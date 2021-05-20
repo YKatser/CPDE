@@ -32,19 +32,19 @@ BinSegEnsemble (WeightedSum+Rank) | 18.1 | 15.36 | 19.51
 Null detector | 0 | 0 | 0
 
 # Citation
-To cite this repository in publications:
+To cite this work in your publications:
 ```
-@misc{cpdensembles,
-author = {Katser, Iurii and Kozitsin, Vyacheslav},
-title = {Changepoint Detection Ensembles},
-year = {2021},
-publisher = {GitHub},
-journal = {GitHub repository},
-howpublished = {\url{https://github.com/YKatser/cpde}},
+@article{katser2021unsupervised,
+  title={Unsupervised Offline Changepoint Detection Ensembles},
+  author={Katser, Iurii and Kozitsin, Viacheslav and Lobachev, Victor and Maksimov, Ivan},
+  journal={Applied Sciences},
+  volume={11},
+  number={9},
+  pages={4280},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
-
-The paper "Unsupervised Offline Changepoint Detection Ensembles" is currently submitted for publication.
 
 # Used materials and 3rd party code
 The experiment is based on the [*ruptures*](http://ctruong.perso.math.cnrs.fr/ruptures-docs/build/html/index.html) library (Copyright (c) 2017, ENS Paris-Saclay, CNRS. All rights reserved.) and the paper "Selective review of offline change point detection methods. Signal Processing" by C. Truong, L. Oudre, N. Vayatis. [journal](https://www.sciencedirect.com/science/article/pii/S0165168419303494?via%3Dihub), [pdf](http://www.laurentoudre.fr/publis/TOG-SP-19.pdf).
