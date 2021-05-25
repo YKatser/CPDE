@@ -1,4 +1,4 @@
-# Ensembles of offline changepoint detection methods
+# Ensembles of offline changepoint detection methods [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unsupervised-offline-changepoint-detection/change-point-detection-on-skab)](https://paperswithcode.com/sota/change-point-detection-on-skab?p=unsupervised-offline-changepoint-detection)
 In this repository we provide Jupyter Notebooks to reproduce the results from the paper.
 
 Instructions and code for the extending search methods (CPD algorithms) from *ruptures* python library to the ensemble case can be found [here](ruptures_changing/).
